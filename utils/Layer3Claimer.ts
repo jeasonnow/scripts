@@ -2,7 +2,7 @@ import { AbstractClaimTool } from "types";
 import fs from 'fs/promises';
 import fsn from 'fs';
 import EvmWallet, { WalletItem } from "./evmWallet";
-import {Dappeteer, DappeteerPage, bootstrap, launch, setupMetaMask} from '@chainsafe/dappeteer';
+import {Dappeteer, DappeteerPage, bootstrap, launch, setupMetaMask} from '../assets/dappeteer';
 import path from 'path';
 import config from '../config';
 import { getElementByContent } from "./selector";

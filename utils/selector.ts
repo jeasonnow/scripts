@@ -1,4 +1,4 @@
-import { DappeteerElementHandle, DappeteerPage } from "@chainsafe/dappeteer";
+import { DappeteerElementHandle, DappeteerPage } from "../assets/dappeteer";
 
 export const getElementByContent = (
     page: DappeteerPage,
