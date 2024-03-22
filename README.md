@@ -78,8 +78,10 @@
 
 ```bash
 # Windows, macOS, Linux - 安装 Node.js 16.x
-nvm install 16
-nvm use 16
+nvm install 18
+nvm use 18
+# 安装 eson
+npm install -g eson
 # Windows, macOS, Linux - 全局安装 pnpm
 npm install -g pnpm
 # Windows, macOS, Linux - 切换到项目目录
